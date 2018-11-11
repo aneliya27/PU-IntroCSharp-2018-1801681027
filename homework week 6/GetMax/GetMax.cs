@@ -2,7 +2,8 @@
 
 namespace GetMax
 {
-    class Program
+    class GetMat
+
     {
         static void Main(string[] args)
         { 

@@ -6,7 +6,7 @@ using System.Text;
 namespace Smile
 
 {
-    class Program
+    class Smile
     {
         private static IEnumerable<string> students;
 
@@ -14,7 +14,7 @@ namespace Smile
 
         {
             Console.OutputEncoding = Encoding.UTF8;
-            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Ani\Desktop\Уни\C#\PU-IntroCSharp-2018-1801681027\homework week 6\ConsoleApp2\file\students.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Ani\Desktop\Уни\C#\PU-IntroCSharp-2018-1801681027\homework week 6\ConsoleApp2\file\students1.txt");
             int studentSum = 0;
             int smiley = '\u263a';
             System.Console.WriteLine("Contents of WriteLines2.txt = ");
