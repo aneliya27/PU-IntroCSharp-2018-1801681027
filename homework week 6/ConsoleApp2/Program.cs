@@ -14,16 +14,16 @@ namespace Smile
 
         {
             Console.OutputEncoding = Encoding.UTF8;
-            string[] student = System.IO.File.ReadAllLines(@"C:\Users\Ani\Desktop\Уни\C#\PU-IntroCSharp-2018-1801681027\homework week 6\ConsoleApp2\file\students.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"C:\Users\Ani\Desktop\Уни\C#\PU-IntroCSharp-2018-1801681027\homework week 6\ConsoleApp2\file\students.txt");
             int studentSum = 0;
             int smiley = '\u263a';
             System.Console.WriteLine("Contents of WriteLines2.txt = ");
-            foreach (string line in student)
+            foreach (string line in lines)
             {
-                student = line.Split(' ');
-                string firstName = student[1];
-                string fathersName = student[2];
-                string lastName = student[3];
+                lines = line.Split(' ');
+                string firstName = lines[1];
+                string fathersName = lines[2];
+                string lastName = lines[3];
                 string fullName = $"{firstName} {fathersName} {lastName}";
 
                 for (int i = 0; i < fullName.Length; i++)
