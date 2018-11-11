@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetMax", "GetMax\GetMax.csproj", "{230F462B-A7AF-422D-B886-D99DC41D1AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryCalculator", "ConsoleApp1\GeometryCalculator.csproj", "{B95ADDF7-E81C-44AB-88A4-C64F60368466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smile", "ConsoleApp2\Smile.csproj", "{0B6C727F-E611-4672-BB72-FC11ADB62ED0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{230F462B-A7AF-422D-B886-D99DC41D1AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230F462B-A7AF-422D-B886-D99DC41D1AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230F462B-A7AF-422D-B886-D99DC41D1AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230F462B-A7AF-422D-B886-D99DC41D1AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B95ADDF7-E81C-44AB-88A4-C64F60368466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95ADDF7-E81C-44AB-88A4-C64F60368466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95ADDF7-E81C-44AB-88A4-C64F60368466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95ADDF7-E81C-44AB-88A4-C64F60368466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B6C727F-E611-4672-BB72-FC11ADB62ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6C727F-E611-4672-BB72-FC11ADB62ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6C727F-E611-4672-BB72-FC11ADB62ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6C727F-E611-4672-BB72-FC11ADB62ED0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2656448F-4146-42E6-BF10-54304793BABF}
+	EndGlobalSection
+EndGlobal
